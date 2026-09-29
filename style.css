@@ -58,13 +58,26 @@ li {
 nav {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 35px;
     margin-bottom: 40px;
     position: sticky;
     top: 0;
     background-color: #f8f3ee;
-    padding: 15px;
+    padding: 18px;
     z-index: 1000;
+    border-bottom: 1px solid #d8c7b8;
+}
+
+nav a {
+    color: #3d3530;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #8b6f5c;
 }
 
 nav a {
