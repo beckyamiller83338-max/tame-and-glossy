@@ -287,3 +287,11 @@ form textarea {
 .booking a:hover {
     text-decoration: underline;
 }
+.brand {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #8b6f5c;
+    margin-bottom: 10px;
+}
